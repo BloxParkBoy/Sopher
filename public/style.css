@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background: linear-gradient(270deg, #0a0015, #1a0033, #000000);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Poppins'
+}
+.heading{
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;;
+    height:40vh;
+}
+h1{
+    color: rgb(65, 65, 255);
+    letter-spacing: 3px;
+    font-size:100px;
+    font-weight:bold;
+    animation: slideUp 0.6s ease-out;
+}
+form{
+    font-weight:bold;
+    animation: slideUp 0.6s ease-out;
+}
+button{
+    border-radius: 10px;
+    padding: 30px; 
+    background-color: aqua;
+    cursor:pointer;
+    font-weight:bold;
+}
+button:hover{
+    transform:scale(1.1);
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    height:30vh;
+    animation: slideUp 0.6s ease-out;
+}
+.box{
+    color:rgb(255, 255, 255);
+    height: 70px;
+    width: 140px;
+    display:flex;
+    font-size:20px;
+    justify-content:center;
+    align-items:center;
+    border-radius:10px; 
+    font-weight: bold;
+}
+.checkout{
+    display:flex;
+    height: 10vh;
+    justify-content: center;;
+}
+.Definition{
+    height: 40vh;
+    display:flex;
+    justify-content:center;
+    align-items: flex-start;
+}
+.definition1{
+    background-color:transparent;;
+    color:white;
+    height: 90px;
+    width:60vh;
+    overflow-wrap: break-word;
+    font-size: 30px;
+    font-weight:bold;
+    animation: slideUp 0.6s ease-out;
+}
+@keyframes slideUp {
+    0% {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
