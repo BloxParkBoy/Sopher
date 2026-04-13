@@ -39,7 +39,7 @@ app.get('/complete', (req,res)=>{
 })
 
 app.get('/cancel', (req,res)=>{
-    res.redirect('index.ejs')
+    res.redirect('index')
 })
 
 app.listen(3000, ()=> console.log('server started on port 3000'))
