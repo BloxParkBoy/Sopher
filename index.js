@@ -22,9 +22,12 @@ app.post('/checkout', async (req, res)=>{
                     product_data: {
                         name: 'scripts'
                     },
-                    unit_amount:5.99 * 100
+                    unit_amount:5.99 * 100,
+                    recurring: {
+                        interval: 'month'
+                    }
                 },
-                quantity: 1
+                quantity: 1,
             }
         ],
         mode: 'payment',
